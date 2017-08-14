@@ -1,0 +1,21 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 5px;
+  height: 100px;
+  color: $base_color;
+  font-family: $base_font;
+  background-color: #333;
+  p {
+    margin-top: 0;
+  }
+  a {
+    color: $base_color;
+    font-family: $base_font;
+    padding-left: 7px;
+    
+    }
+}

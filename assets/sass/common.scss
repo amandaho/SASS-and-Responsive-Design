@@ -1,0 +1,15 @@
+//variables
+$base_font: Montserrat,sans-serif;
+$para_font: 'Droid Serif';
+$base_color: white;
+
+@import "header";
+@import "eggs";
+@import "footer";
+@import "responsive";
+@import "normalize";
+
+* {
+  box-sizing: border-box;
+  //border: 1px black dashed;
+}

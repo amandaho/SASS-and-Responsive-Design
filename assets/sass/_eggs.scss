@@ -1,0 +1,73 @@
+div h3 {
+  font-family: $base_font;
+  font-size: 25px;
+  color: $base_color;
+}
+
+.divider {
+  font-size: 25px;
+  font-weight: bold;
+  color: $base_color;
+}
+
+.egg p {
+  font-size: 20px;
+  font-family: $para_font;
+  font-style: italic;
+  color: $base_color;
+  text-align: center;
+  margin: 20px 30px 20px 30px;
+  width: 55%;
+}
+
+img {
+  width: 50%;
+}
+
+#eggs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.egg {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#hardBoiled {
+  background-color: #ec7471;
+}
+
+#softBoiled {
+  background-color: #93dc88;
+}
+
+#sunnySideUp {
+  background-color: #85cdf4;
+}
+
+#poached {
+  background-color: #c097cc;
+}
+
+#overEasy {
+  background-color: #2bcbc5;
+}
+
+#overHard {
+  background-color: #f3bfb9;
+}
+
+#scrambled {
+  background-color:  #e3d578;
+}
+
+#omelette {
+  background-color:  #7191e4;
+}
